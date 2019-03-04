@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
-import { Button } from 'semantic-ui-react';
+import { BrowserRouter, Route } from 'react-router-dom';
+// import { Button } from 'semantic-ui-react';
+import MainPage from './Components/MainPage/MainPage';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Button>Click</Button>
-      </div>
+      <BrowserRouter >
+        <Route>
+          <div className="App">
+            <MainPage exact path='/' Component={MainPage}/>
+          </div>
+        </Route>
+      </BrowserRouter>
     );
   }
 }
