@@ -1,0 +1,111 @@
+.bg-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    min-height: 100vh;
+	// background-color: #1B242F;
+	background-color: #100e17;
+    // background: linear-gradient(rgb(248, 232, 232), rgb(152, 152, 156));
+	z-index: -1;
+}
+
+.loader {
+	max-width: 15rem;
+	width: 100%;
+	height: auto;
+	stroke-linecap: round;
+}
+
+circle {
+	fill: none;
+	stroke-width: 5.5;
+	animation-name: preloader;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transform-origin: 170px 170px;
+	will-change: transform;
+
+	&:nth-of-type(1) {
+		stroke-dasharray: 550px;
+	}
+
+	&:nth-of-type(2) {
+		stroke-dasharray: 500px;
+	}
+
+	&:nth-of-type(3) {
+		stroke-dasharray: 450px;
+	}
+
+	&:nth-of-type(4) {
+		stroke-dasharray: 300px;
+	}
+
+	@for $i from 1 through 4 {
+		&:nth-of-type(#{$i}) {
+			animation-delay: -#{$i * 0.15}s;
+		}
+	}
+}
+
+@keyframes preloader {
+	50% {
+		transform: rotate(360deg);
+	}
+}
+
+// body {
+// 	background-color: #000000;
+// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+// }
+
+
+.idea {
+	box-sizing: border-box;
+	z-index: 5;
+	position: absolute;
+	top: 6%;
+	height: 10vh;
+	left: 69vw;
+	animation: idea 1.0s ease-in-out 0s infinite alternate;
+	transition: all 0.5s ease-in;
+	user-select: none;
+}
+
+@keyframes idea {
+  0% {
+    transform: translate3d(0,-4px,0);
+  }
+  100% {
+    transform: translate3d(0,4px,0);
+  }
+}
+
+.websvg {
+	position: absolute;
+	top: 30vh;
+	left: 65vw;
+	box-sizing: border-box;
+	height: 40vh;
+
+	animation: websvg 1s ease-in-out 0s infinite alternate;
+	transition: all 0.5s ease-in;
+	user-select: none;
+}
+
+@keyframes websvg {
+  0% {
+    transform: translate3d(0,4px,0);
+  }
+  100% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+@media (max-width: 750px) {
+	.idea {
+		left: 50%;
+		top: -30%;
+	}
+}

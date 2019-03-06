@@ -24,21 +24,21 @@ class Header extends Component {
                 <Responsive minWidth={768}>
                     <div className='sidebar'>
                         <img src={logo} alt='logo' className='sidebar-logo' height='60px' width='40px' />
-                        <div class="container">
-                            <div class="link">
-                                <div class="text">HOME</div>
+                        <div className="container">
+                            <div className="link">
+                                <Link to='/' style={{textDecoration: 'none'}}><div className="text">HOME</div></Link>
                             </div>
-                            <div class="link">
-                                <div class="text">ABOUT</div>
+                            <div className="link">
+                                <Link to='/about' style={{ textDecoration: 'none' }}><div className="text">ABOUT</div></Link>
                             </div>
-                            <div class="link">
-                                <div class="text">SKILLS</div>
+                            <div className="link">
+                                <Link to='/skills' style={{ textDecoration: 'none' }}><div className="text">SKILLS</div></Link>
                             </div>
-                            <div class="link">
-                                <div class="text">PROJECTS</div>
+                            <div className="link">
+                                <div className="text">PROJECTS</div>
                             </div>
-                            <div class="link">
-                                <div class="text">CONTACT</div>
+                            <div className="link">
+                                <div className="text">CONTACT</div>
                             </div>
                             </div>
                         </div>
@@ -59,28 +59,26 @@ class Header extends Component {
                                 </div>
                             </div>   
                         </div>
-                        {/* <Transition visible={true} animation='scale' duration={500}> */}
+                        
                     {toggled ? (
                             <div class="header-container">
                                 <div class="header-link">
-                                    <Link to='/'><div class="text">HOME</div></Link>
+                                    <div class="text">CONTACT</div>
                                 </div>
                                 <div class="header-link">
-                                    <div class="text">ABOUT</div>
+                                <div class="text">PROJECTS</div>
                                 </div>
                                 <div class="header-link">
                                     <div class="text">SKILLS</div>
                                 </div>
                                 <div class="header-link">
-                                    <div class="text">PROJECTS</div>
+                                    <Link to='/about'><div class="text" style={{textDecoration: 'none'}}>ABOUT</div></Link>
                                 </div>
                                 <div class="header-link">
-                                    <div class="text">CONTACT</div>
+                                    <div class="text">HOME</div>
                                 </div>
                             </div>
                         ) : ''}
-                            
-                        {/* </Transition> */}
                     </Responsive>
                 </div>
         );

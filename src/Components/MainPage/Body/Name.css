@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.intro {
+  position: absolute;
+  top: 19%;
+  left: 10%;
+  z-index: 1;
+  height: 60%;
+  width: 36%;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid wheat; */
+}
+
+.typewriter {
+  height: 20%;
+}
+
+.typewriter h1 {
+  font-size: 4vw;
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(255, 255, 255);
+  overflow: hidden; 
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+.typewriter span {
+  color: #E31B6D;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+
+
+.intro-text  {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  height: 30%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  /* border: 2px solid white; */
+}
+
+.intro-text p {
+  /* color: rgb(27, 227, 210); */
+  color: rgb(68, 255, 239);
+  font-size: 2vw;
+  letter-spacing: 1.5px;
+  line-height: 7vh;
+  animation: text 3s 1;
+}
+
+.intro-text span {
+  color: #E31B6D;
+}
+
+
+@keyframes text {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.1;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    30% {
+      opacity: 0.3;
+    }
+    40% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    60% {
+      opacity: 0.6;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    80% {
+      opacity: 0.8;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+@media(max-width:750px) {
+  .intro {
+    width: 80%;
+    left: 10%;
+    top: 35%;
+  }
+  .typewriter h1 {
+      font-size: 8vw;
+  }
+  .intro-text {
+    top: 45%;
+    width: 70%;
+    left: 16%;
+  }
+  .intro-text p {
+    font-size: 4vw;
+    letter-spacing: 1.4px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+}
