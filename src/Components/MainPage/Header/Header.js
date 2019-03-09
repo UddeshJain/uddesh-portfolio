@@ -38,7 +38,7 @@ class Header extends Component {
                                 <div className="text">PROJECTS</div>
                             </div>
                             <div className="link">
-                                <div className="text">CONTACT</div>
+                                <Link to='/contact' style={{ textDecoration: 'none' }} ><div className="text">CONTACT</div></Link>
                             </div>
                             </div>
                         </div>
@@ -63,19 +63,19 @@ class Header extends Component {
                     {toggled ? (
                             <div class="header-container">
                                 <div class="header-link">
-                                    <div class="text">CONTACT</div>
+                                    <Link to='/contact' style={{ textDecoration: 'none' }} ><div class="text">CONTACT</div></Link>
                                 </div>
                                 <div class="header-link">
                                 <div class="text">PROJECTS</div>
                                 </div>
                                 <div class="header-link">
-                                    <div class="text">SKILLS</div>
+                                    <Link to='/skills' style={{ textDecoration: 'none' }}><div class="text">SKILLS</div></Link>
                                 </div>
                                 <div class="header-link">
-                                    <Link to='/about'><div class="text" style={{textDecoration: 'none'}}>ABOUT</div></Link>
+                                    <Link to='/about' style={{ textDecoration: 'none' }} ><div class="text" style={{textDecoration: 'none'}}>ABOUT</div></Link>
                                 </div>
                                 <div class="header-link">
-                                    <div class="text">HOME</div>
+                                    <Link to='/home' style={{ textDecoration: 'none' }} ><div class="text">HOME</div></Link>
                                 </div>
                             </div>
                         ) : ''}

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import './About.css';
+import './Contact.css';
 import Header from '../MainPage/Header/Header';
 
-class About extends Component {
+class Contact extends Component {
     render() {
         return (
-            <div className='about-container'>
+            <div className='contact-container'>
                 <Header />
             </div>
         );
     }
 }
 
-export default About;
+export default Contact;
