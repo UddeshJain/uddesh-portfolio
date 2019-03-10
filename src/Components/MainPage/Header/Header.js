@@ -61,21 +61,21 @@ class Header extends Component {
                         </div>
                         
                     {toggled ? (
-                            <div class="header-container">
-                                <div class="header-link">
-                                    <Link to='/contact' style={{ textDecoration: 'none' }} ><div class="text">CONTACT</div></Link>
+                            <div className="header-container">
+                                <div className="header-link">
+                                    <Link to='/contact' style={{ textDecoration: 'none' }} ><div className="text">CONTACT</div></Link>
                                 </div>
-                                <div class="header-link">
-                                <div class="text">PROJECTS</div>
+                                <div className="header-link">
+                                <div className="text">PROJECTS</div>
                                 </div>
-                                <div class="header-link">
-                                    <Link to='/skills' style={{ textDecoration: 'none' }}><div class="text">SKILLS</div></Link>
+                                <div className="header-link">
+                                    <Link to='/skills' style={{ textDecoration: 'none' }}><div className="text">SKILLS</div></Link>
                                 </div>
-                                <div class="header-link">
-                                    <Link to='/about' style={{ textDecoration: 'none' }} ><div class="text" style={{textDecoration: 'none'}}>ABOUT</div></Link>
+                                <div className="header-link">
+                                    <Link to='/about' style={{ textDecoration: 'none' }} ><div className="text" style={{textDecoration: 'none'}}>ABOUT</div></Link>
                                 </div>
-                                <div class="header-link">
-                                    <Link to='/home' style={{ textDecoration: 'none' }} ><div class="text">HOME</div></Link>
+                                <div className="header-link">
+                                    <Link to='/' style={{ textDecoration: 'none' }} ><div className="text">HOME</div></Link>
                                 </div>
                             </div>
                         ) : ''}
