@@ -50,9 +50,12 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h1>About Me</h1>
-                    <p></p>
+                <div className='about-txt-div'>
+                    <h1><span>About Me</span></h1>
+                    <p>It was started with a <span>passion</span> for building something <span>amazing</span>, <span>interactive</span> and <span>cool</span></p>
+                    <p>In the starting stage i have created many <span>websites</span> just for learning purpose but after sometime i realised <span>"They are not interactive"</span> so i started learning <span>CSS</span></p>
+                    <p>After a long time i met with <span>react.js</span> and <span>node.js</span> and created few WebApps with these technologies</p>
+                    <p>Now i'm learning advance concepts of <span>JavaScript</span> and yeah i also have knowledge of <span>Python</span>, C and C++</p>
                 </div>
             </div>
         );

@@ -1,5 +1,5 @@
 .about-container {
-    border: 2px solid gainsboro;
+    /* border: 2px solid gainsboro; */
     width: 98vw;
     height: 98vh;
 }
@@ -13,7 +13,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 2px solid #ff1744;
+  /* border: 2px solid #ff1744; */
+  border: 2px solid rgb(122, 34, 63);
   border-radius: 50%;
   -webkit-animation: r 10s linear infinite;
           animation: r 10s linear infinite;
@@ -235,11 +236,42 @@
 
 .about-bg {
     position: relative;
-    width: 40vw;
-    height: 60vh;
+    width: 45vw;
+    height: 70vh;
     left: 55vw;
-    top: 20vh;
+    top: 18vh;
     overflow: hidden;
+}
+
+.about-txt-div {
+    position: absolute;
+    width: 50vw;
+    height: 95vh;
+    top: 10px;
+    left: 10vw;
+    /* border: 2px solid salmon; */
+    color: rgb(233, 224, 224);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-txt-div h1 {
+    position: relative;
+    letter-spacing: 2px;
+    top: 15vh;
+    font-size: 50px;
+}
+
+.about-txt-div p {
+    position: relative;
+    top: 20vh;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 1.5vw;
+    margin-top: 40px;
+}
+
+.about-txt-div span {
+    color: rgb(40, 218, 218);
 }
 
 @media(max-width: 700px) {
@@ -247,5 +279,48 @@
         width: 100vw;
         left: 0;
         z-index: -1;
+    }
+    .about-txt-div {
+        top: 17vh;
+        left: 4vw;
+        width: 90vw;
+        height: 70vh;
+    }
+    .about-txt-div h1 {
+        position: relative;
+        top: 4vh;
+    }
+    .about-txt-div p {
+        top: 8vh;
+        letter-spacing: 1px;
+        line-height: 22px;
+        font-size: 4.2vw;
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .about-bg {
+        width: 100vw;
+        left: 0;
+        z-index: -1;
+    }
+    .about-txt-div {
+        top: 15vh;
+        left: 4vw;
+        width: 90vw;
+        height: 70vh;
+    }
+    .about-txt-div h1 {
+        position: relative;
+        top: 4vh;
+    }
+    .about-txt-div p {
+        top: 7vh;
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-size: 4.5vw;
+        margin-top: 20px;
     }
 }

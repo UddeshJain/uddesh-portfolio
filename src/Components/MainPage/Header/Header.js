@@ -35,7 +35,7 @@ class Header extends Component {
                                 <Link to='/skills' style={{ textDecoration: 'none' }}><div className="text">SKILLS</div></Link>
                             </div>
                             <div className="link">
-                                <div className="text">PROJECTS</div>
+                                <Link to='/projects' style={{ textDecoration: 'none' }} ><div className="text">PROJECTS</div></Link>
                             </div>
                             <div className="link">
                                 <Link to='/contact' style={{ textDecoration: 'none' }} ><div className="text">CONTACT</div></Link>
@@ -66,7 +66,7 @@ class Header extends Component {
                                     <Link to='/contact' style={{ textDecoration: 'none' }} ><div className="text">CONTACT</div></Link>
                                 </div>
                                 <div className="header-link">
-                                <div className="text">PROJECTS</div>
+                                    <Link to='/projects' style={{ textDecoration: 'none' }} ><div className="text">PROJECTS</div></Link>
                                 </div>
                                 <div className="header-link">
                                     <Link to='/skills' style={{ textDecoration: 'none' }}><div className="text">SKILLS</div></Link>
