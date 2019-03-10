@@ -1,5 +1,4 @@
 .about-container {
-    /* border: 2px solid gainsboro; */
     width: 98vw;
     height: 98vh;
 }
@@ -13,7 +12,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /* border: 2px solid #ff1744; */
   border: 2px solid rgb(122, 34, 63);
   border-radius: 50%;
   -webkit-animation: r 10s linear infinite;
@@ -249,7 +247,6 @@
     height: 95vh;
     top: 10px;
     left: 10vw;
-    /* border: 2px solid salmon; */
     color: rgb(233, 224, 224);
     font-family: 'Josefin Sans', sans-serif;
 }

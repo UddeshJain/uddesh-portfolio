@@ -23,7 +23,7 @@ class Header extends Component {
             <div>
                 <Responsive minWidth={768}>
                     <div className='sidebar'>
-                        <img src={logo} alt='logo' className='sidebar-logo' height='60px' width='40px' />
+                        <Link to='/'><img src={logo} alt='logo' className='sidebar-logo' height='60px' width='40px' /></Link>
                         <div className="container">
                             <div className="link">
                                 <Link to='/' style={{textDecoration: 'none'}}><div className="text">HOME</div></Link>
@@ -47,7 +47,7 @@ class Header extends Component {
 
                     <Responsive maxWidth={767}>
                         <div className='header'>
-                        <img src={logo} alt='logo' className='header-logo' height='60px' width='40px' />
+                        <Link to='/'><img src={logo} alt='logo' className='header-logo' height='60px' width='40px' /></Link>
                             <div className='container-nav-icon'>
                                 <div id="nav-icon" onClick={this.handleClick} className={this.state.toggled ? 'open' : ''}>
                                     <span></span>
@@ -72,7 +72,7 @@ class Header extends Component {
                                     <Link to='/skills' style={{ textDecoration: 'none' }}><div className="text">SKILLS</div></Link>
                                 </div>
                                 <div className="header-link">
-                                    <Link to='/about' style={{ textDecoration: 'none' }} ><div className="text" style={{textDecoration: 'none'}}>ABOUT</div></Link>
+                                    <Link to='/about' style={{ textDecoration: 'none' }} ><div className="text">ABOUT</div></Link>
                                 </div>
                                 <div className="header-link">
                                     <Link to='/' style={{ textDecoration: 'none' }} ><div className="text">HOME</div></Link>

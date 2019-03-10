@@ -277,3 +277,12 @@ body {
         top: 10vh;
     }
 }
+
+@media(max-width:400px) {
+    .card {
+        margin-left: 0;
+        margin-bottom: 40px;
+        top: 10vh;
+        width: 80vw;
+    }
+}

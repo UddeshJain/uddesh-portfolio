@@ -43,10 +43,6 @@
   50% { border-color: orange }
 }
 
-
-
-
-
 .intro-text  {
   position: absolute;
   top: 30%;
@@ -56,11 +52,9 @@
   display: flex;
   justify-content: center;
   font-family: 'Josefin Sans', sans-serif;
-  /* border: 2px solid white; */
 }
 
 .intro-text p {
-  /* color: rgb(27, 227, 210); */
   color: rgb(68, 255, 239);
   font-size: 2vw;
   letter-spacing: 1.5px;
