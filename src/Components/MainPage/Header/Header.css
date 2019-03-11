@@ -84,10 +84,10 @@
 
 .header-container {
    position: fixed;
-   top: 9%;
+   top: 60px;
    background: rgb(24, 59, 102);
    width: 100%;
-   height: 10%;
+   height: 70px;
    z-index: 1;
 }
 
@@ -253,13 +253,4 @@
 #nav-icon.open span:nth-child(6) {
   left: calc(50% - 4px);
   top: 20px;
-}
-
-@media(max-width: 400px) {
-  .header-container {
-    top: 10vh;
-  }
-  .header-link {
-    top: -1vh;
-  }
 }
