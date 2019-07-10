@@ -5,7 +5,7 @@ $barbarian: #EC9B3B;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 90vw;
+  width: 100vw;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -103,12 +103,12 @@ $barbarian: #EC9B3B;
 
 @media(max-width: 700px) {
   .project-wrapper {
-    width: 60vw;
+    width: 70vw;
   }
 }
 
 @media(max-width: 400px) {
   .project-wrapper {
-    width: 70vw;
+    width: 80vw;
   }
 }

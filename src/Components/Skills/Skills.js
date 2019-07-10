@@ -17,7 +17,7 @@ class Skills extends Component {
                 <section class="wrapper">
                     <div class="card" data-effect="zoom">
                         <figure  class="card__image">
-                            <img src="https://c1.staticflickr.com/4/3935/32253842574_d3d449ab86_c.jpg" alt="Short description" />
+                            <img src="https://images.theconversation.com/files/195198/original/file-20171117-7588-1rai1rs.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="Short description" />
                         </figure>
                         <div class="card__header">
                             <figure class="card__profile">
@@ -34,7 +34,7 @@ class Skills extends Component {
 
                     <div class="card" data-effect="zoom">
                         <figure class="card__image">
-                            <img src="https://c1.staticflickr.com/4/3935/32253842574_d3d449ab86_c.jpg" alt="Short description" />
+                            <img src="https://images.theconversation.com/files/195198/original/file-20171117-7588-1rai1rs.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="Short description" />
                         </figure>
                         <div class="card__header">
                             <figure class="card__profile">
@@ -53,7 +53,7 @@ class Skills extends Component {
 
                     <div class="card" data-effect="zoom">
                         <figure class="card__image">
-                            <img src="https://c1.staticflickr.com/4/3935/32253842574_d3d449ab86_c.jpg" alt="Short description" />
+                            <img src="https://images.theconversation.com/files/195198/original/file-20171117-7588-1rai1rs.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="Short description" />
                         </figure>
                         <div class="card__header">
                             <figure class="card__profile">
@@ -72,7 +72,7 @@ class Skills extends Component {
 
                     <div class="card" data-effect="zoom">
                         <figure class="card__image">
-                            <img src="https://c1.staticflickr.com/4/3935/32253842574_d3d449ab86_c.jpg" alt="Short description" />
+                            <img src="https://images.theconversation.com/files/195198/original/file-20171117-7588-1rai1rs.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="Short description" />
                         </figure>
                         <div class="card__header">
                             <figure class="card__profile">
@@ -91,7 +91,7 @@ class Skills extends Component {
 
                     <div class="card" data-effect="zoom">
                         <figure class="card__image">
-                            <img src="https://c1.staticflickr.com/4/3935/32253842574_d3d449ab86_c.jpg" alt="Short description" />
+                            <img src="https://images.theconversation.com/files/195198/original/file-20171117-7588-1rai1rs.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="Short description" />
                         </figure>
                         <div class="card__header">
                             <figure class="card__profile">
@@ -110,7 +110,7 @@ class Skills extends Component {
 
                     <div class="card" data-effect="zoom">
                         <figure class="card__image">
-                            <img src="https://c1.staticflickr.com/4/3935/32253842574_d3d449ab86_c.jpg" alt="Short description" />
+                            <img src="https://images.theconversation.com/files/195198/original/file-20171117-7588-1rai1rs.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="Short description" />
                         </figure>
                         <div class="card__header">
                             <figure class="card__profile">
