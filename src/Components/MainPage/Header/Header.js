@@ -11,7 +11,6 @@ class Header extends Component {
         this.state = {
             toggled: false
         }
-        this.handleClick = this.handleClick
     }
     handleClick = () => {
         let toggled = this.state.toggled
