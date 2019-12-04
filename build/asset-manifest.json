@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdab706d.chunk.css",
+    "main.js": "/static/js/main.97183989.chunk.js",
+    "main.js.map": "/static/js/main.97183989.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.20f250b6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.20f250b6.js.map",
+    "static/js/2.58748c44.chunk.js": "/static/js/2.58748c44.chunk.js",
+    "static/js/2.58748c44.chunk.js.map": "/static/js/2.58748c44.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.98c2f9288f1e7b3dd47204fe85863a18.js": "/precache-manifest.98c2f9288f1e7b3dd47204fe85863a18.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cdab706d.chunk.css.map": "/static/css/main.cdab706d.chunk.css.map",
+    "static/media/bot.png": "/static/media/bot.7191a23e.png",
+    "static/media/burger.png": "/static/media/burger.303cd5c4.png",
+    "static/media/chat.png": "/static/media/chat.c61c5837.png",
+    "static/media/devchat.png": "/static/media/devchat.7c30cbb1.png",
+    "static/media/facebook.png": "/static/media/facebook.1165952e.png",
+    "static/media/github.png": "/static/media/github.1d065b76.png",
+    "static/media/html.png": "/static/media/html.717f707b.png",
+    "static/media/idea.svg": "/static/media/idea.2354dada.svg",
+    "static/media/instagram.png": "/static/media/instagram.a845df2e.png",
+    "static/media/laptop.png": "/static/media/laptop.28befa06.png",
+    "static/media/linkedin.png": "/static/media/linkedin.97316ff0.png",
+    "static/media/logo.png": "/static/media/logo.8fd56488.png",
+    "static/media/mail.png": "/static/media/mail.c02c882a.png",
+    "static/media/node.png": "/static/media/node.b91dd13e.png",
+    "static/media/phone.png": "/static/media/phone.da18dba7.png",
+    "static/media/python.png": "/static/media/python.6f37f2c1.png",
+    "static/media/react.png": "/static/media/react.56f30a71.png",
+    "static/media/twitter.png": "/static/media/twitter.cdc74d24.png",
+    "static/media/weather.png": "/static/media/weather.c1e9e206.png",
+    "static/media/web.svg": "/static/media/web.2e131eb5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20f250b6.js",
+    "static/js/2.58748c44.chunk.js",
+    "static/css/main.cdab706d.chunk.css",
+    "static/js/main.97183989.chunk.js"
+  ]
+}
